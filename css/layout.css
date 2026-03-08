@@ -1,0 +1,130 @@
+#top-space {
+    height: 25px;
+    background: var(--sc);
+}
+
+#nav-bar {
+    height: 45px;
+    background: var(--primary-color);
+    display: flex;
+    align-items: center;
+}
+
+#nav-space {
+    height: 20px;
+    background: var(--sc);
+}
+
+#test-settings-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+    background: var(--primary-color);
+}
+
+#test-settings {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: none;
+    height: auto;
+    width: auto;
+    border: none;
+    color: var(--txc);
+    cursor: pointer;
+    padding: 6px 7px;
+    border-radius: 3px;
+    font-family: "Geist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+#settings-space {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    background: var(--sc);
+    justify-content: center;
+}
+
+#live-value-block {
+    display: flex;
+    width: 85vw;
+    height: 100%;
+    max-width: 1100px;
+    align-items: end;
+}
+
+#live-value-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 100%;
+    aspect-ratio: 1 / 1;
+    font-size: 30px;
+}
+
+#text-box-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto !important;
+}
+
+#textbox-space {
+    height: 10px;
+    background: var(--sc);
+}
+
+#retry-area {
+    height: 45px;
+    background: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#retry {
+    border-radius: 50%;
+    height: 50%;
+    aspect-ratio: 1 / 1;
+    border: none;
+    color: var(--txc);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background: none;
+}
+
+#retry-space {
+    height: 80px;
+    background: var(--sc);
+}
+
+#shortcut-area {
+    height: 80px;
+    background: var(--primary-color);
+}
+
+#shortcut-space {
+    height: 5px;
+    background: var(--sc);
+}
+
+footer {
+    height: 160px;
+    background: var(--primary-color);
+}
+
+.space {
+    background: rgba(0, 0, 0, 0) !important;
+}
+
+.jar {
+    background: rgba(0, 0, 0, 0) !important;
+}

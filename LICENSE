@@ -1,0 +1,34 @@
+TYPE GOAL Strict Source License 1.0
+Copyright © 2026 TYPE GOAL by itznrd. All rights reserved.
+
+1. DEFINITIONS
+"Software" refers to the source code, logic, design assets, and documentation associated with the TYPE GOAL project.
+
+"Authorized Channel" refers to the official GitHub repository (github.com/itznrd) or the official domain explicitly approved by itznrd.
+
+"Personal Use" refers to the execution of the Software on a local machine (localhost) for the purposes of learning, private testing, or development research.
+
+2. GRANT OF https://www.google.com/search?q=LICENSE
+Permission is hereby granted to individuals to:
+
+View, download, and modify the source code for Personal Use only.
+
+Fork the repository on GitHub, provided the fork is used for personal development and maintains a clear link to the original source.
+
+3. RESTRICTIONS (THE "STRICT" CLAUSES)
+No Public Hosting: You are strictly prohibited from deploying or hosting TYPE GOAL (or any modified version of it) on any public-facing domain, server, or cloud platform. Public access to the app is reserved exclusively for Authorized Channels.
+
+Non-Commercial: This Software may not be used for any commercial purposes. You may not sell the code, include it in paid products, or use it to generate revenue (including ad-based revenue).
+
+Distribution: You may not share or redistribute the source code through third-party websites or mirrors. All users must be directed to the Authorized Channels for the original code.
+
+Branding & Attribution: The name TYPE GOAL and all associated branding/logos must remain intact. You may not rebrand the Software and present it as your own work.
+
+4. CONTRIBUTIONS
+At this time, TYPE GOAL is not accepting general external contributions to the core repository. Certain modules may be opened for contribution in the future; however, any such contributions must be requested and approved through the authorized itznrd communication channels.
+
+5. TERMINATION
+Any breach of these conditions (especially public hosting or commercial use) immediately voids this license. itznrd reserves the right to pursue DMCA takedowns or legal action for violations.
+
+6. DISCLAIMER
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DAMAGES ARISING FROM THE USE OF THIS SOFTWARE.
