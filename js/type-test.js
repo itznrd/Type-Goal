@@ -37,6 +37,7 @@
     var fontsReady = false;
     var textReady = false;
     var pendingInput = null;
+    var isMobile = ('ontouchstart' in window) || (navigator.maxTouchPoints > 0);
 
     function getWordSpacingPx(el) {
         var ws = getComputedStyle(el).wordSpacing;
@@ -124,15 +125,31 @@
 
     container.addEventListener('click', function(e) {
         e.stopPropagation();
-        input.focus();
-        setFocused(true);
+        if (isMobile && document.activeElement === input) {
+            input.blur();
+            setTimeout(function() {
+                input.focus({ preventScroll: true });
+                setFocused(true);
+            }, 10);
+        } else {
+            input.focus();
+            setFocused(true);
+        }
     });
 
     container.addEventListener('touchstart', function(e) {
         e.preventDefault();
         e.stopPropagation();
-        input.focus();
-        setFocused(true);
+        if (isMobile && document.activeElement === input) {
+            input.blur();
+            setTimeout(function() {
+                input.focus({ preventScroll: true });
+                setFocused(true);
+            }, 10);
+        } else {
+            input.focus({ preventScroll: true });
+            setFocused(true);
+        }
     }, { passive: false });
 
     document.addEventListener('click', function(e) {
